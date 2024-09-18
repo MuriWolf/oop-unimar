@@ -19,7 +19,7 @@ class ReservaHotel:
     def calcular_valor_total(self) -> float:
         return self.custo_diaria * self.estadia
     
-    def exibir_detalhes(self) -> dict:
+    def exibir_detalhes(self) -> None:
         print(f'''
 Detalhes da hospedagem:
 nome ho hospede: {self.hospede.nome}      
