@@ -1,0 +1,12 @@
+Tarefa
+    attrs
+    - descricao: str
+    - data_criacao: date
+    - status: bool
+    + data_conclusao
+    methods
+    - concluir
+    - exibir_detalhes
+    - verificar_atraso(prazo_limite)
+        (prazo_limite > data_atual e status != verdade) = atrasado 
+
